@@ -7,10 +7,12 @@ import BasicStateModule from './components/BasicStateModule'
 import StateArrayModule from './components/StateArrayModule' 
 import LocalJSONModule from './components/LocalJSONModule' 
 import Checklist from './components/Checklist'
+import Characters from './components/Characters'
 
 const App = () => {
   return(
     <div className='app'>
+      <Characters />
       <Checklist />
       <LocalJSONModule />
       <StateArrayModule />
@@ -22,4 +24,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App
